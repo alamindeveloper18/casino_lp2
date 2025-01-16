@@ -70,7 +70,7 @@ button:focus{outline: none;}
 
 .mobi{display: none;}
 .desk{display: block;}
-
+.x-large{display: none;}
 /* Flex style */
 
 .flex{display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; flex-flow: row wrap;}
@@ -635,9 +635,10 @@ input[type=number] {
     
     
 }
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1800px) {
     
-
+    .thrill-wrap .section-bg img.desk{display: none;}
+    .x-large{display: block;}
     
 }
 
